@@ -23,7 +23,7 @@ html{
 }
 
 p{
-    color: rgb(85, 78, 85);
+    color: rgb(97, 96, 96);
 }
 
 /* Transition */
@@ -60,10 +60,10 @@ a{
 }
 
 a:hover{
-    color: rgb(202, 112, 202);
+    color: rgb(255, 145, 240);
     text-decoration: underline;
     text-underline-offset: 0.5rem ;
-    text-decoration-color: rgb(243, 140, 247) ;
+    text-decoration-color: rgb(255, 145, 240) ;
 }
 
 .logo{
@@ -203,7 +203,7 @@ section {
 
 }
 
-.section__text__p1{
+.section__text__p2{
     font-size: 1.75rem ;
     margin-bottom: 1rem;
     
@@ -268,4 +268,14 @@ section {
 
 .btn-container{
     gap:1rem
+}
+
+/* ABOUT SECTION */
+
+#about{
+    position: relative;
+}
+
+.about-container{
+    gap: 2rem;
 }
