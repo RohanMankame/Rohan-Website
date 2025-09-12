@@ -156,6 +156,41 @@ a:hover{
     transform: none;
 }
 
+
+
+/* Arrows */
+.arrow{
+    position: absolute;
+    top: 60%;
+    right: 0;
+    transform: translateX(5rem);
+
+    transition: all 0.1s ease; /* Smooth transition for visual changes */
+}
+
+/* .arrow:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666; 
+  transform: translateY(10px); 
+} */
+
+
+.UpArrow{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateX(5rem);
+}
+
+
+.MidArrow{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateX(5rem);
+
+}
+
 /* Sections */
 
 section {
@@ -308,11 +343,7 @@ section {
     width: 400px;
 }
 
-.arrow{
-    position: absolute;
-    right: -5rem;
-    bottom: 3rem;
-}
+
 
 
 
@@ -321,9 +352,10 @@ section {
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163,163,163);
+    border: rgb(0, 0, 0) 0.1rem solid;
+    border-color: rgb(0, 0, 0);
     text-align: center;
+    
 }
 
 .section-container{
@@ -351,12 +383,13 @@ section {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    
 }
 
 .experience-details-container{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .artical-container{
@@ -438,6 +471,8 @@ article .icon{
     background: #fff;
     border-radius: 16px;
     box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    border: rgb(0, 0, 0) 0.1rem solid;
+    border-color: rgb(0, 0, 0);
     margin: 0.5rem 0;
     display: flex;
     flex-direction: column;
